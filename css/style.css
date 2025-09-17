@@ -344,3 +344,20 @@ border-bottom: 1px solid rgba(16, 16, 16, 0.2);
 border-top: 1px solid rgba(16, 16, 16, 0.2);
 
 }
+footer{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+width: 1932px;
+height: 671px;
+opacity: 0.9;
+}
+.foot{
+    margin-top: 30px;
+    background-image: url('/assets/foods.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
