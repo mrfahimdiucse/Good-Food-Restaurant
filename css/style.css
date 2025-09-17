@@ -8,7 +8,7 @@
 .bg-image{
     background: linear-gradient(
         0deg,
-         rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),url('/assets/hero-bg.png');
+         rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),url('../assets/hero-bg.png');
              background-repeat: no-repeat;
     background-size: cover;
 width: 1920px;
@@ -356,7 +356,7 @@ opacity: 0.9;
 }
 .foot{
     margin-top: 30px;
-    background-image: url('/assets/foods.png');
+    background-image: url('../assets/foods.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
