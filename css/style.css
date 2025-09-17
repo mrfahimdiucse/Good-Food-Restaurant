@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-image{
+    background: linear-gradient(
+        0deg,
+         rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),url('/assets/hero-bg.png');
+             background-repeat: no-repeat;
+    background-size: cover;
+width: 1920px;
+background-position: center;
+height: 915px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    color: white;
+    align-items: center;
+    height: 1023px;
+width: 1023px;
+height: 391px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+}
+.heading{
+
+color: rgba(255, 255, 255, 1);
+font-family: Work Sans,sans-serif;
+font-size: 21px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+    opacity: 0.8;
+    margin-top: 25px;
+    padding-bottom:16px;
+align-items: center;
+}
+.heading-content{
+color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+width: 1000px;
+height: 160px;
+}
+.description{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans,sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+width: 1023px;
+height: 56px;opacity: 0.7;
+
+}
+.btn{
+width: 282px;
+height: 65px;
+border: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 21px 32px 21px 32px;
+border-radius: 8px;
+background: rgba(82, 195, 3, 1);
+color: rgba(255, 255, 255, 1);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* 2nd page  */
+.card-box{
+width: 1920px;
+height: 1222px;
+background: rgba(255, 255, 255, 1);
+display: flex;
+flex-wrap: wrap;
+justify-content:center ;
+align-items: center;
+
+}
+.frame-14{
+    height: 1320px;
+    width:742px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+.frame-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cap{
+    padding-bottom: 16px;
+width: 185px;
+height: 28px;
+opacity: 0.6;
+color: rgba(16, 16, 16, 1);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.card-heading{
+    /* Your Favorite Brands Food Are Now On Sale */
+width: 691px;
+height: 128px;
+color: rgba(16, 16, 16, 1);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 48px;
+}
+.card{
+display: flex;
+gap: 32px;
+}
+.fram-11{
+width: 424px;
+height: 522px
+}
+.card-btn{
+    border-radius: 8px;
+background: rgba(82, 195, 3, 0.15);
+width: 200px;
+height: 56px;
+border: none;
+
+}
+img{
+    border-radius: 16px;
+width: 424px;
+height: 283px;
+
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+.card-btn{
+    color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.crd-heading{
+width: 282px;
+height: 47px;
+color: rgba(16, 16, 16, 1);
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.card-description{
+    text-align: center;
+    color: rgba(16, 16, 16, 1);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+width: 424px;
+height: 56px;
+}
+
+
+.frame-14 {
+  width: 100%;
+  max-width: 1400px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+  gap: 32px;
+}
+
+.fram-11 {
+  width: 424px; 
+  height: 522px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fram-11 img {
+  width: 100%;
+  height: 283px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.butt{
+    background: rgba(82, 195, 3, 1);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 212px;
+height: 65px;
+border-radius: 8px;
+border: none;
+color: rgba(255, 255, 255, 1);
+}
+.about{
+    display: flex;
+    background: rgba(255, 255, 255, 1);
+    justify-content: center;
+    align-items: center;
+width: 1920px;
+height: 671px;
+}
+.food{
+    border-radius: 8px;
+width: 960px;
+height: 671px;
+}
+.about-content{
+
+width: 960px;
+height: 398px;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+gap: 32;
+
+
+}
+.about-heading{
+    color: rgba(16, 16, 16, 1);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+width: 805px;
+height: 128px;
+margin-bottom: 24px;
+}
+.des{
+    color: rgba(16, 16, 16, 1);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+opacity: 0.6;
+margin-bottom: 74px;
+}
+.follow{
+    color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.ima{
+    padding-top: 32px;
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    margin-top: 32px;
+height: 40px;
+width: 40px;
+
+}
+.folo{
+
+width: 960px;
+padding: 30px;
+height: 98px;
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+
+}
